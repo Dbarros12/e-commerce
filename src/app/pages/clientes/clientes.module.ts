@@ -2,19 +2,19 @@
 import { NgModule } from '@angular/core';
 
 // This Module's Components
-import { RecargasComponent } from './recargas.component';
+import { ClientesComponent } from './clientes.component';
 
 @NgModule({
     imports: [
 
     ],
     declarations: [
-        RecargasComponent,
+        ClientesComponent,
     ],
     exports: [
-        RecargasComponent,
+        ClientesComponent,
     ]
 })
-export class RecargasModule {
+export class ClientesModule {
 
 }

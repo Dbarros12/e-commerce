@@ -6,6 +6,10 @@ import { SideNavOuterToolbarModule, SideNavInnerToolbarModule, SingleCardModule 
 import { FooterModule, LoginFormModule } from './shared/components';
 import { AuthService, ScreenService, AppInfoService } from './shared/services';
 import { AppRoutingModule } from './app-routing.module';
+import{ DxDataGridModule,
+  DxDataGridComponent,
+  DxSpeedDialActionModule,
+  DxSelectBoxModule} from 'devextreme-angular';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { AppRoutingModule } from './app-routing.module';
     SingleCardModule,
     FooterModule,
     LoginFormModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DxSpeedDialActionModule,
+    DxDataGridModule,
+    DxSelectBoxModule,
+    
   ],
   providers: [AuthService, ScreenService, AppInfoService],
   bootstrap: [AppComponent]

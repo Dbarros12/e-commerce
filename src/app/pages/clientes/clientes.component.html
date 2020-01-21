@@ -1,0 +1,19 @@
+<!--component html goes here -->
+<!--component html goes here -->
+<h2 class="content-block">Clientes</h2>
+<dx-data-grid>
+    <dxo-selection mode="single"></dxo-selection>
+    <dxo-paging [enabled]="false"></dxo-paging>
+    <dxo-editing mode="popup">
+        <dxo-texts confirmDeleteMessage=""></dxo-texts>
+    </dxo-editing>
+    
+    <dxi-column dataField="Nome"></dxi-column>
+    <dxi-column dataField="Sobrenome"></dxi-column>
+    <dxi-column dataField="Endereço"></dxi-column>
+    <!-- <dxi-column dataField="StateID" [width]="125" caption="State">
+    <dxo-lookup [dataSource]="states" displayExpr="Name" valueExpr="ID"></dxo-lookup>
+    </dxi-column> -->
+    <dxi-column dataField="Data de Nascimento" [width]="150" dataType="date"></dxi-column>
+</dx-data-grid>
+
