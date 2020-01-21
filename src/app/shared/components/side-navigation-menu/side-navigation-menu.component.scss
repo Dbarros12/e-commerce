@@ -70,11 +70,12 @@
           }
 
           &.dx-state-selected > .dx-treeview-item * {
-            color: $base-accent;
+            color: #FFF;
           }
 
           &:not(.dx-state-focused)>.dx-treeview-item.dx-state-hover {
-            background-color: lighten($base-bg, 4.00);
+            background-color: #00BFFF;
+            color:#000;
           }
         }
       }
