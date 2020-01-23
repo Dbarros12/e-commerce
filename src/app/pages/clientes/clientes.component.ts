@@ -8,7 +8,7 @@ import{ DxDataGridModule,
     import config from 'devextreme/core/config';
 import { AuthService, ScreenService, AppInfoService } from 'src/app/shared/services';
 @Component({
-    moduleId: module.id,
+    //moduleId: module.id,
     selector: 'clientes',
     templateUrl: 'clientes.component.html',
     styleUrls: ['clientes.component.scss']
